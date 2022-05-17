@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <script src="main.js"></script>
+</head>
+
+<center>
+<body>
+    <style>
+    body{
+        background: url(campominado.jpeg);
+        color: black;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+         -webkit-text-stroke-color: #000; /* cor da borda */
+    }
+    center{
+        background-color: rgb(221, 221, 221) ;
+        width: 70%;
+        margin: 190px auto;
+    }
+    .display span{
+                font-size: 50px;
+            }
+
+    </style> 
+    <br> <br> <br>   
+    <H1>Escolher dificuldade:</H1> <br>
+    <h1><button type="submit" onclick="startGame('easy')"><h1>Easy</h1></button> 
+    <button onclick="startGame('medium')"><h1>Medium </h1></button> 
+    <button onclick="startGame('hard')"><h1>Hard</h1></button>
+</h1>
+    <br> <br>
+    <div class="display">
+        <!--DISPLAY-->
+        <span id="minuto">00</span><span>:</span><span id="segundo">00</span>
+
+    </div>
+     <label id="cont"></label>
+</body>
+</center>
+</html>
