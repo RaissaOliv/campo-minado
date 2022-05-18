@@ -51,9 +51,6 @@ function startGame(dificuldade){
     iniciar()
 }
 
-var cont = document.createElement("label");
-cont.id = "cont"
-document.getElementsByTagName('body')[0].appendChild("cont") 
 
 function escreveTabuleiro(matriz){
     //muda para arquivo com o tabuleiro
