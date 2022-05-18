@@ -48,7 +48,7 @@ function startGame(dificuldade){
     document.getElementsByTagName('body')[0].innerHTML = ''
     
     escreveTabuleiro(matriz)
-    iniciar()
+ 
 }
 
 
