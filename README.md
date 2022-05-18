@@ -2,7 +2,11 @@
 Projeto de campo minado :)
 
 
+*******************
 alunos: Renato Vasconcelos Cordeiro
-Raissa Sousa de Oliveira 
 
-Esse é o nosso Js e Html recriando o campo minado
+Raissa Sousa de Oliveira 
+********************
+
+
+Campo minado recriado com CSS, JS e HTML
